@@ -1,0 +1,28 @@
+$img-dimension: 200px;
+
+
+.page-user {
+
+  h1 {
+    display: inline-block;
+  }
+  //* { border: 1px solid pink; }
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    display: inline-block;
+    padding: 20px;
+
+    img {
+      width: $img-dimension;
+      height: $img-dimension;
+    }
+
+    h4 {
+      text-align: center;
+    }
+  }
+}
